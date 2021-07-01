@@ -44,6 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@commitlint/cli", "npm:12.1.4"],
             ["@commitlint/config-conventional", "npm:12.1.4"],
+            ["@commitlint/config-lerna-scopes", "virtual:4245cb5e3f5f859522b1bf4fd1045a6290386035ee8c804b9cabd6fe9ebf45d1b34a3430ab0aabe8db489560d7e09d52437f13a3506e926d8673ba94e1345afc#npm:12.1.4"],
             ["@testing-library/jest-dom", "npm:5.14.1"],
             ["@testing-library/react", "virtual:4245cb5e3f5f859522b1bf4fd1045a6290386035ee8c804b9cabd6fe9ebf45d1b34a3430ab0aabe8db489560d7e09d52437f13a3506e926d8673ba94e1345afc#npm:12.0.0"],
             ["@types/eslint", "npm:7.2.13"],
@@ -899,6 +900,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@commitlint/config-conventional", "npm:12.1.4"],
             ["conventional-changelog-conventionalcommits", "npm:4.6.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@commitlint/config-lerna-scopes", [
+        ["npm:12.1.4", {
+          "packageLocation": "./.yarn/cache/@commitlint-config-lerna-scopes-npm-12.1.4-30cf3a8d8a-e4c24cb71c.zip/node_modules/@commitlint/config-lerna-scopes/",
+          "packageDependencies": [
+            ["@commitlint/config-lerna-scopes", "npm:12.1.4"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:4245cb5e3f5f859522b1bf4fd1045a6290386035ee8c804b9cabd6fe9ebf45d1b34a3430ab0aabe8db489560d7e09d52437f13a3506e926d8673ba94e1345afc#npm:12.1.4", {
+          "packageLocation": "./.yarn/$$virtual/@commitlint-config-lerna-scopes-virtual-1c8ecfc21d/0/cache/@commitlint-config-lerna-scopes-npm-12.1.4-30cf3a8d8a-e4c24cb71c.zip/node_modules/@commitlint/config-lerna-scopes/",
+          "packageDependencies": [
+            ["@commitlint/config-lerna-scopes", "virtual:4245cb5e3f5f859522b1bf4fd1045a6290386035ee8c804b9cabd6fe9ebf45d1b34a3430ab0aabe8db489560d7e09d52437f13a3506e926d8673ba94e1345afc#npm:12.1.4"],
+            ["@types/lerna", null],
+            ["globby", "npm:11.0.4"],
+            ["import-from", "npm:3.0.0"],
+            ["lerna", null],
+            ["resolve-pkg", "npm:2.0.0"],
+            ["semver", "npm:7.3.5"]
+          ],
+          "packagePeers": [
+            "@types/lerna",
+            "lerna"
           ],
           "linkType": "HARD",
         }]
@@ -4649,6 +4676,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["import-from", [
+        ["npm:3.0.0", {
+          "packageLocation": "./.yarn/cache/import-from-npm-3.0.0-8656bfd330-ba66d42da5.zip/node_modules/import-from/",
+          "packageDependencies": [
+            ["import-from", "npm:3.0.0"],
+            ["resolve-from", "npm:5.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["import-local", [
         ["npm:3.0.2", {
           "packageLocation": "./.yarn/cache/import-local-npm-3.0.2-c8afc1fd5f-9ba5f1697b.zip/node_modules/import-local/",
@@ -7315,6 +7352,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-tools-parent", "workspace:."],
             ["@commitlint/cli", "npm:12.1.4"],
             ["@commitlint/config-conventional", "npm:12.1.4"],
+            ["@commitlint/config-lerna-scopes", "virtual:4245cb5e3f5f859522b1bf4fd1045a6290386035ee8c804b9cabd6fe9ebf45d1b34a3430ab0aabe8db489560d7e09d52437f13a3506e926d8673ba94e1345afc#npm:12.1.4"],
             ["@testing-library/jest-dom", "npm:5.14.1"],
             ["@testing-library/react", "virtual:4245cb5e3f5f859522b1bf4fd1045a6290386035ee8c804b9cabd6fe9ebf45d1b34a3430ab0aabe8db489560d7e09d52437f13a3506e926d8673ba94e1345afc#npm:12.0.0"],
             ["@types/eslint", "npm:7.2.13"],
@@ -7574,6 +7612,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["resolve-global", "npm:1.0.0"],
             ["global-dirs", "npm:0.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["resolve-pkg", [
+        ["npm:2.0.0", {
+          "packageLocation": "./.yarn/cache/resolve-pkg-npm-2.0.0-7b70eb3262-5f86c1ba8c.zip/node_modules/resolve-pkg/",
+          "packageDependencies": [
+            ["resolve-pkg", "npm:2.0.0"],
+            ["resolve-from", "npm:5.0.0"]
           ],
           "linkType": "HARD",
         }]

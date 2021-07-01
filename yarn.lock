@@ -467,6 +467,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@commitlint/config-lerna-scopes@npm:^12.1.4":
+  version: 12.1.4
+  resolution: "@commitlint/config-lerna-scopes@npm:12.1.4"
+  dependencies:
+    globby: ^11.0.1
+    import-from: 3.0.0
+    resolve-pkg: 2.0.0
+    semver: 7.3.5
+  peerDependencies:
+    lerna: ^3.0.0 || ^4.0.0
+  peerDependenciesMeta:
+    lerna:
+      optional: true
+  checksum: e4c24cb71cbbcf284b93bf6dd845713b114801ba592680c5d22cce96f57ab7a4333c365e964f2e7640445872fe47c5b8d348ee5a41b78acf6cf181decf781726
+  languageName: node
+  linkType: hard
+
 "@commitlint/ensure@npm:^12.1.4":
   version: 12.1.4
   resolution: "@commitlint/ensure@npm:12.1.4"
@@ -3434,7 +3451,7 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"globby@npm:^11.0.3":
+"globby@npm:^11.0.1, globby@npm:^11.0.3":
   version: 11.0.4
   resolution: "globby@npm:11.0.4"
   dependencies:
@@ -3655,6 +3672,15 @@ fsevents@^2.3.2:
     parent-module: ^1.0.0
     resolve-from: ^4.0.0
   checksum: 3ff624f00140850a2878eb7630d635daaad556cfa5a0e23191e9b65ab4fec8cc23f929f03bc9b3c4251b497a434f459bf3e7a8aa547a400ad140f431a1b0e4d6
+  languageName: node
+  linkType: hard
+
+"import-from@npm:3.0.0":
+  version: 3.0.0
+  resolution: "import-from@npm:3.0.0"
+  dependencies:
+    resolve-from: ^5.0.0
+  checksum: ba66d42da541286fe50afe800a506534560c067eac7fa1c5fa83b4ea69eb92952adf6bff4ae6a3ea2e45780a874aa0341e4101e6ebc3f9b8fd6b83ac29fafe1b
   languageName: node
   linkType: hard
 
@@ -6016,6 +6042,7 @@ fsevents@^2.3.2:
   dependencies:
     "@commitlint/cli": ^12.1.4
     "@commitlint/config-conventional": ^12.1.4
+    "@commitlint/config-lerna-scopes": ^12.1.4
     "@testing-library/jest-dom": ^5.14.1
     "@testing-library/react": ^12.0.0
     "@types/eslint": ^7
@@ -6242,6 +6269,15 @@ fsevents@^2.3.2:
   dependencies:
     global-dirs: ^0.1.1
   checksum: 337635c53b22fcaf1fa2a49ef3da34167893582ab3200bc28f7f013cb0a617db03c7f21ab7b124a6a85e8725cade7f3fb0f4618e54fed2e507078ce8a4c5c58b
+  languageName: node
+  linkType: hard
+
+"resolve-pkg@npm:2.0.0":
+  version: 2.0.0
+  resolution: "resolve-pkg@npm:2.0.0"
+  dependencies:
+    resolve-from: ^5.0.0
+  checksum: 5f86c1ba8c05ae7e181381718861e046b985ab302dc8167a21a077eec3d029091a542cf49c42bc0717d7d956f2cd2a73928d708f561af1c066aa4d3e62439112
   languageName: node
   linkType: hard
 
