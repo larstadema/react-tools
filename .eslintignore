@@ -1,0 +1,6 @@
+/.git
+/.yarn
+**/lib/
+**/dist/
+node_modules
+.pnp.js
