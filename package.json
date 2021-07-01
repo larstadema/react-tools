@@ -2,6 +2,15 @@
   "name": "react-tools-parent",
   "private": true,
   "description": "React-Tools Monorepo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/larstadema/react-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/larstadema/react-tools/issues"
+  },
+  "homepage": "https://github.com/larstadema/react-tools",
+  "author": "Lars Tadema <lars@thecodingdutchman.com> (http://github.com/larstadema)",
   "scripts": {
     "preinstall": "npx only-allow yarn",
     "postinstall": "husky install",
